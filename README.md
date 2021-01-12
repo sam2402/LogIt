@@ -1,7 +1,7 @@
 # Log It
 
 #### Demo
-- The video link below is a short demonstration of my app:
+- The video link below is a short demonstration of my app:  
 https://youtu.be/tcqjY1U7Ew4
 
 #### About the Log It
