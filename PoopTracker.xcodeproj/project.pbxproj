@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C056C6324C6F2B0000FF5B7 /* NoPoopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C056C6224C6F2B0000FF5B7 /* NoPoopView.swift */; };
+		6C068BE024B90258009BB0C1 /* MyActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C068BDF24B90258009BB0C1 /* MyActivityView.swift */; };
+		6C068BE524B92A43009BB0C1 /* FriendsActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C068BE424B92A43009BB0C1 /* FriendsActivityView.swift */; };
+		6C068BE724B92C4D009BB0C1 /* MyProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C068BE624B92C4D009BB0C1 /* MyProfileView.swift */; };
+		6C2566B524BBA63400678B2D /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2566B424BBA63400678B2D /* ActivityViewModel.swift */; };
+		6C2566B724BBAC5400678B2D /* PoopRowViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2566B624BBAC5400678B2D /* PoopRowViewModel.swift */; };
+		6C2AD98824BBD47100836B3A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2AD98724BBD47100836B3A /* Extensions.swift */; };
+		6C39C46E24F2BCFD00D51022 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C39C46D24F2BCFD00D51022 /* AuthenticationService.swift */; };
+		6CA6B55F24BE8C9800693E9B /* KeyboardAvoidance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA6B55E24BE8C9800693E9B /* KeyboardAvoidance.swift */; };
+		6CE0101B24AEC86D00AD4D92 /* PoopTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0101A24AEC86D00AD4D92 /* PoopTrackerApp.swift */; };
+		6CE0101D24AEC86D00AD4D92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0101C24AEC86D00AD4D92 /* ContentView.swift */; };
+		6CE0101F24AEC86D00AD4D92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE0101E24AEC86D00AD4D92 /* Assets.xcassets */; };
+		6CE0102224AEC86D00AD4D92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE0102124AEC86D00AD4D92 /* Preview Assets.xcassets */; };
+		6CE0102A24AEC90B00AD4D92 /* PoopThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0102924AEC90B00AD4D92 /* PoopThumbnailView.swift */; };
+		6CE0102E24AECE0E00AD4D92 /* Poop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0102D24AECE0E00AD4D92 /* Poop.swift */; };
+		6CE0103024AECFE500AD4D92 /* AddPoopSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE0102F24AECFE500AD4D92 /* AddPoopSheetView.swift */; };
+		6CE1934724BF9B6100B48E82 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CE1934624BF9B6100B48E82 /* GoogleService-Info.plist */; };
+		6CE1934A24BFA1F000B48E82 /* PoopRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE1934924BFA1F000B48E82 /* PoopRepository.swift */; };
+		6CEE584524B9E38F0009439D /* PoopDetailView .swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE584424B9E38F0009439D /* PoopDetailView .swift */; };
+		6CEE584724BA018C0009439D /* PoopRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CEE584624BA018C0009439D /* PoopRowView.swift */; };
+		FDF888C9FDAA727D256A2AD8 /* Pods_PoopTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63CE1DDDC7121ECE84E6E04 /* Pods_PoopTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6C056C6224C6F2B0000FF5B7 /* NoPoopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoPoopView.swift; sourceTree = "<group>"; };
+		6C068BDF24B90258009BB0C1 /* MyActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityView.swift; sourceTree = "<group>"; };
+		6C068BE424B92A43009BB0C1 /* FriendsActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsActivityView.swift; sourceTree = "<group>"; };
+		6C068BE624B92C4D009BB0C1 /* MyProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileView.swift; sourceTree = "<group>"; };
+		6C2566B424BBA63400678B2D /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
+		6C2566B624BBAC5400678B2D /* PoopRowViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopRowViewModel.swift; sourceTree = "<group>"; };
+		6C2AD98724BBD47100836B3A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6C39C46D24F2BCFD00D51022 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		6CA6B55E24BE8C9800693E9B /* KeyboardAvoidance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAvoidance.swift; sourceTree = "<group>"; };
+		6CE0101724AEC86D00AD4D92 /* PoopTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoopTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE0101A24AEC86D00AD4D92 /* PoopTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopTrackerApp.swift; sourceTree = "<group>"; };
+		6CE0101C24AEC86D00AD4D92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6CE0101E24AEC86D00AD4D92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE0102124AEC86D00AD4D92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CE0102324AEC86D00AD4D92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CE0102924AEC90B00AD4D92 /* PoopThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopThumbnailView.swift; sourceTree = "<group>"; };
+		6CE0102D24AECE0E00AD4D92 /* Poop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Poop.swift; sourceTree = "<group>"; };
+		6CE0102F24AECFE500AD4D92 /* AddPoopSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPoopSheetView.swift; sourceTree = "<group>"; };
+		6CE1934624BF9B6100B48E82 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CE1934924BFA1F000B48E82 /* PoopRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopRepository.swift; sourceTree = "<group>"; };
+		6CEE584424B9E38F0009439D /* PoopDetailView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PoopDetailView .swift"; sourceTree = "<group>"; };
+		6CEE584624BA018C0009439D /* PoopRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoopRowView.swift; sourceTree = "<group>"; };
+		A26EDE7DFE10B793A33CEB08 /* Pods-PoopTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoopTracker.release.xcconfig"; path = "Target Support Files/Pods-PoopTracker/Pods-PoopTracker.release.xcconfig"; sourceTree = "<group>"; };
+		DEA30369EE7B8283DD2DB411 /* Pods-PoopTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoopTracker.debug.xcconfig"; path = "Target Support Files/Pods-PoopTracker/Pods-PoopTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		E63CE1DDDC7121ECE84E6E04 /* Pods_PoopTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PoopTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE0101424AEC86D00AD4D92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF888C9FDAA727D256A2AD8 /* Pods_PoopTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C068BE124B90282009BB0C1 /* My Activity */ = {
+			isa = PBXGroup;
+			children = (
+				6C068BDF24B90258009BB0C1 /* MyActivityView.swift */,
+				6CEE584824BA01920009439D /* Poop Row */,
+				6CE0102F24AECFE500AD4D92 /* AddPoopSheetView.swift */,
+				6C056C6224C6F2B0000FF5B7 /* NoPoopView.swift */,
+			);
+			path = "My Activity";
+			sourceTree = "<group>";
+		};
+		6C068BE824B92C90009BB0C1 /* Friends' Activity  */ = {
+			isa = PBXGroup;
+			children = (
+				6C068BE424B92A43009BB0C1 /* FriendsActivityView.swift */,
+			);
+			path = "Friends' Activity ";
+			sourceTree = "<group>";
+		};
+		6C068BE924B92CA9009BB0C1 /* My Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6C068BE624B92C4D009BB0C1 /* MyProfileView.swift */,
+			);
+			path = "My Profile";
+			sourceTree = "<group>";
+		};
+		6C2566B824BBBA7C00678B2D /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				6C2566B424BBA63400678B2D /* ActivityViewModel.swift */,
+				6C2566B624BBAC5400678B2D /* PoopRowViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		6C2566B924BBBA8500678B2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0102D24AECE0E00AD4D92 /* Poop.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6C39C46F24F2BD0B00D51022 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6C39C46D24F2BCFD00D51022 /* AuthenticationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		6CE0100E24AEC86D00AD4D92 = {
+			isa = PBXGroup;
+			children = (
+				6CE0101924AEC86D00AD4D92 /* PoopTracker */,
+				6CE0101824AEC86D00AD4D92 /* Products */,
+				FA7EC5BBFC9BE3B05C52FEDE /* Pods */,
+				D3FE3E67B6ED7C893866EA79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE0101824AEC86D00AD4D92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0101724AEC86D00AD4D92 /* PoopTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE0101924AEC86D00AD4D92 /* PoopTracker */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0101A24AEC86D00AD4D92 /* PoopTrackerApp.swift */,
+				6CEE584324B944BE0009439D /* Views */,
+				6C2566B824BBBA7C00678B2D /* View Models */,
+				6CE1934824BFA1A700B48E82 /* Repositories */,
+				6C2566B924BBBA8500678B2D /* Models */,
+				6C39C46F24F2BD0B00D51022 /* Services */,
+				6C2AD98724BBD47100836B3A /* Extensions.swift */,
+				6CA6B55E24BE8C9800693E9B /* KeyboardAvoidance.swift */,
+				6CE0101E24AEC86D00AD4D92 /* Assets.xcassets */,
+				6CE0102324AEC86D00AD4D92 /* Info.plist */,
+				6CE1934624BF9B6100B48E82 /* GoogleService-Info.plist */,
+				6CE0102024AEC86D00AD4D92 /* Preview Content */,
+			);
+			path = PoopTracker;
+			sourceTree = "<group>";
+		};
+		6CE0102024AEC86D00AD4D92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0102124AEC86D00AD4D92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6CE1934824BFA1A700B48E82 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				6CE1934924BFA1F000B48E82 /* PoopRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		6CEE584324B944BE0009439D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6CE0101C24AEC86D00AD4D92 /* ContentView.swift */,
+				6C068BE124B90282009BB0C1 /* My Activity */,
+				6C068BE824B92C90009BB0C1 /* Friends' Activity  */,
+				6C068BE924B92CA9009BB0C1 /* My Profile */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6CEE584824BA01920009439D /* Poop Row */ = {
+			isa = PBXGroup;
+			children = (
+				6CEE584624BA018C0009439D /* PoopRowView.swift */,
+				6CE0102924AEC90B00AD4D92 /* PoopThumbnailView.swift */,
+				6CEE584424B9E38F0009439D /* PoopDetailView .swift */,
+			);
+			path = "Poop Row";
+			sourceTree = "<group>";
+		};
+		D3FE3E67B6ED7C893866EA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E63CE1DDDC7121ECE84E6E04 /* Pods_PoopTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA7EC5BBFC9BE3B05C52FEDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEA30369EE7B8283DD2DB411 /* Pods-PoopTracker.debug.xcconfig */,
+				A26EDE7DFE10B793A33CEB08 /* Pods-PoopTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE0101624AEC86D00AD4D92 /* PoopTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE0102624AEC86D00AD4D92 /* Build configuration list for PBXNativeTarget "PoopTracker" */;
+			buildPhases = (
+				42E3FD771519323F65E0C439 /* [CP] Check Pods Manifest.lock */,
+				6CE0101324AEC86D00AD4D92 /* Sources */,
+				6CE0101424AEC86D00AD4D92 /* Frameworks */,
+				6CE0101524AEC86D00AD4D92 /* Resources */,
+				0E70B8B5D41343DA508DA4AE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoopTracker;
+			productName = PoopTracker;
+			productReference = 6CE0101724AEC86D00AD4D92 /* PoopTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE0100F24AEC86D00AD4D92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6CE0101624AEC86D00AD4D92 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 6CE0101224AEC86D00AD4D92 /* Build configuration list for PBXProject "PoopTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE0100E24AEC86D00AD4D92;
+			productRefGroup = 6CE0101824AEC86D00AD4D92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE0101624AEC86D00AD4D92 /* PoopTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE0101524AEC86D00AD4D92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE0102224AEC86D00AD4D92 /* Preview Assets.xcassets in Resources */,
+				6CE0101F24AEC86D00AD4D92 /* Assets.xcassets in Resources */,
+				6CE1934724BF9B6100B48E82 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E70B8B5D41343DA508DA4AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoopTracker/Pods-PoopTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PoopTracker/Pods-PoopTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PoopTracker/Pods-PoopTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E3FD771519323F65E0C439 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PoopTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE0101324AEC86D00AD4D92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C068BE724B92C4D009BB0C1 /* MyProfileView.swift in Sources */,
+				6C056C6324C6F2B0000FF5B7 /* NoPoopView.swift in Sources */,
+				6CA6B55F24BE8C9800693E9B /* KeyboardAvoidance.swift in Sources */,
+				6CE0101D24AEC86D00AD4D92 /* ContentView.swift in Sources */,
+				6C068BE024B90258009BB0C1 /* MyActivityView.swift in Sources */,
+				6CE0102A24AEC90B00AD4D92 /* PoopThumbnailView.swift in Sources */,
+				6CE0101B24AEC86D00AD4D92 /* PoopTrackerApp.swift in Sources */,
+				6C2566B524BBA63400678B2D /* ActivityViewModel.swift in Sources */,
+				6CEE584524B9E38F0009439D /* PoopDetailView .swift in Sources */,
+				6C2566B724BBAC5400678B2D /* PoopRowViewModel.swift in Sources */,
+				6C2AD98824BBD47100836B3A /* Extensions.swift in Sources */,
+				6CEE584724BA018C0009439D /* PoopRowView.swift in Sources */,
+				6CE1934A24BFA1F000B48E82 /* PoopRepository.swift in Sources */,
+				6C39C46E24F2BCFD00D51022 /* AuthenticationService.swift in Sources */,
+				6CE0103024AECFE500AD4D92 /* AddPoopSheetView.swift in Sources */,
+				6CE0102E24AECE0E00AD4D92 /* Poop.swift in Sources */,
+				6C068BE524B92A43009BB0C1 /* FriendsActivityView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6CE0102424AEC86D00AD4D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CE0102524AEC86D00AD4D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE0102724AEC86D00AD4D92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA30369EE7B8283DD2DB411 /* Pods-PoopTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PoopTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 972656L2AL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PoopTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.PoopTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6CE0102824AEC86D00AD4D92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26EDE7DFE10B793A33CEB08 /* Pods-PoopTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PoopTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = 972656L2AL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PoopTracker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sam.PoopTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE0101224AEC86D00AD4D92 /* Build configuration list for PBXProject "PoopTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE0102424AEC86D00AD4D92 /* Debug */,
+				6CE0102524AEC86D00AD4D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE0102624AEC86D00AD4D92 /* Build configuration list for PBXNativeTarget "PoopTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE0102724AEC86D00AD4D92 /* Debug */,
+				6CE0102824AEC86D00AD4D92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE0100F24AEC86D00AD4D92 /* Project object */;
+}
